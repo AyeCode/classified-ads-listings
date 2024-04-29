@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Consulting functions and definitions
+ * Classifieds functions and definitions
  */
 
 // Exit if accessed directly.
@@ -13,8 +13,8 @@ defined( 'ABSPATH' ) || exit;
  * @since 1.0.0
  */
 
- add_action( 'wp_enqueue_scripts', 'consulting_enqueue_styles' );
- function consulting_enqueue_styles() {
+ add_action( 'wp_enqueue_scripts', 'classifieds_enqueue_styles' );
+ function classifieds_enqueue_styles() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/styles/style.css');
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
  }
@@ -25,9 +25,9 @@ defined( 'ABSPATH' ) || exit;
  * @since 1.0.0
  */
 
-function consulting_theme_setup()
+function classifieds_theme_setup()
 {
-	load_child_theme_textdomain( 'consulting', get_stylesheet_directory() . '/languages' );
+	load_child_theme_textdomain( 'classifieds', get_stylesheet_directory() . '/languages' );
 }
 
-add_action('after_setup_theme', 'consulting_theme_setup');
+add_action('after_setup_theme', 'classifieds_theme_setup');

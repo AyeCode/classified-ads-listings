@@ -1,38 +1,42 @@
-/* TODO: This CSS rule can be deprecated when shadow opacity control is implemented
-* Reduce Shadow opacity
-*/
-span.shadow-lg,
-div.shadow-lg {
-	box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.08) !important;
-}
-
-span.shadow,
-div.shadow {
-	box-shadow: 0 0.125rem 0.5rem -0.25rem rgba(31, 27, 45, 0.08), 0 0.25rem 1rem rgba(31, 27, 45, 0.08) !important;
-}
-
-/* TODO: The automatic addition of the bg-white class to category icon links is unintended and should be avoided.
-* This CSS rule can be deprecated when issues is fixed.
-*/
-.gd-cptcat-cat-left.bg-white {
-	background-color: transparent !important;
-}
-
-/* TODO: I implemented this CSS rule to darken the logo on a light background.
+/* @todo: I implemented this CSS rule to darken the logo on a light background.
 * On scroll
 */
 .color-scheme-flip-on-scroll.navbar-light .navbar-brand img {
-  filter: brightness(20%);
+	filter: brightness(20%);
 }
 
-/* TODO: This CSS rule can be deprecated when border color control is implemented
+/* @todo: This CSS rule can be deprecated when border control is implemented
 * Set border color for form inputs 
 */
+.form-select,
 .form-control:not(.submit) {
-  border-color: #e6e5e8;
+	border-color: #e6e5e8 !important;
 }
 
-/* Enhance the user experience of the near location dropdown menu with better spacing. */
-.dropdown-menu .gdlmls-near {
-	padding: 20px !important;
-  }
+/* 
+* @todo: This CSS rule can be deprecated when more accordian controls are implemented
+*/
+div.accordion {
+	--bs-accordion-bg: transparent;
+	--bs-accordion-btn-padding-y: 1.2rem;
+	--bs-accordion-border-width: 2px;
+	--bs-accordion-border-radius: .5rem;
+	--bs-accordion-active-color: inherit;
+}
+
+button.accordion-button {
+	font-size: 1.1rem;
+}
+
+
+/* 
+* Style latest posts widgets
+*/
+.wp-block-latest-posts__featured-image img {
+	border-radius: 10px;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+	margin-bottom: 20px;
+	overflow: auto;
+}

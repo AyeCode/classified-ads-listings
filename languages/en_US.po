@@ -155,7 +155,7 @@ msgid "Page layouts"
 msgstr ""
 
 #: inc/query-block-patterns.php:15
-msgid "Blog / post list"
+msgid "Consulting / post list"
 msgstr ""
 
 #: inc/section-block-patterns.php:15

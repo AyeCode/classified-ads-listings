@@ -1,19 +1,21 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
 	"customTemplates": [
 		{
-			"name": "gd-archive",
+			"name": "page-sidebar-right",
 			"postTypes": [
-				"gd_place"
+				"page",
+				"post"
 			],
-			"title": "GD Archives"
+			"title": "Two columns, right sidebar"
 		},
 		{
-			"name": "gd-search",
+			"name": "page-sidebar-left",
 			"postTypes": [
-				"gd_place"
+				"page",
+				"post"
 			],
-			"title": "GD Search Archive"
+			"title": "Two columns, left sidebar"
 		},
 		{
 			"name": "gd-single",
@@ -54,6 +56,12 @@
 		}
 	],
 	"settings": {
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
+		},
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
@@ -80,7 +88,7 @@
 			"link": true,
 			"palette": [
 				{
-					"color": "#00d082",
+					"color": "#25afbe",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -130,7 +138,7 @@
 					"slug": "gray"
 				},
 				{
-					"color": "#495057",
+					"color": "#2e3235",
 					"name": "Gray Dark",
 					"slug": "gray-dark"
 				},
@@ -140,7 +148,7 @@
 					"slug": "indigo"
 				},
 				{
-					"color": "#1f021e",
+					"color": "#faa200",
 					"name": "Orange",
 					"slug": "orange"
 				},
@@ -150,19 +158,14 @@
 					"slug": "light"
 				},
 				{
-					"color": "#202124",
-					"name": "Dark",
-					"slug": "dark"
-				},
-				{
 					"color": "#fff",
 					"name": "White",
 					"slug": "white"
 				},
 				{
 					"color": "#202124",
-					"name": "Dark Black",
-					"slug": "dark-black"
+					"name": "Dark",
+					"slug": "dark"
 				},
 				{
 					"color": "#000",
@@ -170,29 +173,9 @@
 					"slug": "black"
 				},
 				{
-					"color": "#fff2f6",
-					"name": "Light pink",
-					"slug": "custom-light-pink"
-				},
-				{
-					"color": "#f3f6fb",
-					"name": "Light Blue",
-					"slug": "custom-light-blue"
-				},
-				{
-					"color": "#202124",
+					"color": "#101111",
 					"name": "Dark Black",
-					"slug": "custom-dark-black"
-				},
-				{
-					"color": "#fffbf2",
-					"name": "light yellow",
-					"slug": "custom-light-yellow"
-				},
-				{
-					"color": "#ebfaf4",
-					"name": "Light Green",
-					"slug": "custom-light-green"
+					"slug": "dark-black"
 				}
 			]
 		},
@@ -201,7 +184,8 @@
 			"wideSize": null
 		},
 		"spacing": {
-			"blockGap": false,
+			"blockGap": true,
+			"padding": true,
 			"units": [
 				"px",
 				"em",
@@ -217,6 +201,31 @@
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Josefin Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 700",
+							"src": [
+								"file:./assets/fonts/josefin_sans/JosefinSans-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "Josefin Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 700",
+							"src": [
+								"file:./assets/fonts/josefin_sans/JosefinSans-Italic-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Josefin Sans\", sans-serif",
+					"name": "Josefin Sans",
+					"slug": "josefin-sans"
 				},
 				{
 					"fontFace": [
@@ -246,27 +255,40 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Josefin Sans",
-							"fontStretch": "normal",
+							"fontFamily": "MuseoModerno",
 							"fontStyle": "normal",
-							"fontWeight": "100 700",
-							"src": [
-								"file:./assets/fonts/josefin_sans/JosefinSans-VariableFont_wght.woff2"
-							]
+							"fontWeight": "100 900",
+							"src": "file:./assets/fonts/MuseoModerno/MuseoModerno-VariableFont_wght.woff2"
 						},
 						{
-							"fontFamily": "Josefin Sans",
-							"fontStretch": "normal",
+							"fontFamily": "MuseoModerno",
 							"fontStyle": "italic",
-							"fontWeight": "100 700",
-							"src": [
-								"file:./assets/fonts/josefin_sans/JosefinSans-Italic-VariableFont_wght.woff2"
-							]
+							"fontWeight": "100 900",
+							"src": "file:./assets/fonts/MuseoModerno/MuseoModerno-Italic-VariableFont_wght.woff2"
 						}
 					],
-					"fontFamily": "\"Josefin Sans\", sans-serif",
-					"name": "Josefin Sans",
-					"slug": "josefin-sans"
+					"fontFamily": "MuseoModerno, system-ui",
+					"name": "MuseoModerno",
+					"slug": "museomoderno"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Fraunces",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": "http://consulting.local/wp-content/uploads/fonts/Fraunces-Italic-VariableFont_SOFTWONKopszwght.woff2"
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": "http://consulting.local/wp-content/uploads/fonts/Fraunces-VariableFont_SOFTWONKopszwght.woff2"
+						}
+					],
+					"fontFamily": "Fraunces",
+					"name": "Fraunces",
+					"slug": "fraunces"
 				}
 			],
 			"fontSizes": [
@@ -302,7 +324,23 @@
 		"blocks": {
 			"core/button": {
 				"border": {
-					"radius": "4px",
+					"bottom": {
+						"style": "solid",
+						"width": "0px"
+					},
+					"left": {
+						"style": "solid",
+						"width": "0px"
+					},
+					"radius": "0px",
+					"right": {
+						"style": "solid",
+						"width": "0px"
+					},
+					"top": {
+						"style": "solid",
+						"width": "0px"
+					},
 					"width": "0px"
 				},
 				"color": {
@@ -420,12 +458,17 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--gray-dark)"
+			"text": "var(--wp--preset--color--dark)"
 		},
 		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--black)"
+				}
+			},
 			"h1": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-black)"
+					"text": "var(--wp--preset--color--gray-dark)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--extra-large)"
@@ -433,7 +476,7 @@
 			},
 			"h2": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-black)"
+					"text": "var(--wp--preset--color--gray-dark)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
@@ -441,27 +484,30 @@
 			},
 			"h3": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-black)"
+					"text": "var(--wp--preset--color--gray-dark)"
 				}
 			},
 			"h4": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-black)"
+					"text": "var(--wp--preset--color--gray-dark)"
 				}
 			},
 			"h5": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-black)"
+					"text": "var(--wp--preset--color--gray-dark)"
 				}
 			},
 			"h6": {
 				"color": {
-					"text": "var(--wp--preset--color--dark-black)"
+					"text": "var(--wp--preset--color--gray-dark)"
 				}
 			},
 			"heading": {
 				"color": {
-					"text": "#202124"
+					"text": "var(--wp--preset--color--gray-dark)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)"
 				}
 			},
 			"link": {
@@ -480,10 +526,14 @@
 				"left": "0px",
 				"right": "0px",
 				"top": "0px"
+			},
+			"padding": {
+				"bottom": "0px",
+				"top": "0px"
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--josefin-sans)",
+			"fontFamily": "var(--wp--preset--font-family--montserrat)",
 			"fontSize": "16px",
 			"lineHeight": "1.7",
 			"textDecoration": "none"

@@ -1,10 +1,10 @@
 
-# Classifieds theme for BlockStrap
+# Consulting theme for BlockStrap
 <p align="center">
   <img src="screenshot.png" width=60%> 
   <br>
 </p>
-Classifieds is a modern and responsive WordPress theme designed for classifieds boards and recruitment websites. It is fully customizable and easy to use, Classifieds utilises the power of the WordPress block editor, Bootstrap to be able to create a fast loading modern classifieds site.
+Consulting is a modern and responsive WordPress theme designed for consulting boards and recruitment websites. It is fully customizable and easy to use, Consulting utilises the power of the WordPress block editor, Bootstrap to be able to create a fast loading modern consulting site.
 
 * Tested up to: 6.2
 * Requires at least: 6.1
@@ -22,8 +22,8 @@ Classifieds is a modern and responsive WordPress theme designed for classifieds 
 
 ## Copyright
 
-classifieds WordPress Theme, Copyright AyeCode Ltd
-classifieds is distributed under the terms of the GNU GPL.
+consulting WordPress Theme, Copyright AyeCode Ltd
+consulting is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -44,12 +44,19 @@ GNU General Public License for more details.
 
 ## Resources used to build this theme
 
-The images used on the homepage are AI-generated.
+https://stocksnap.io/photo/business-man-NHW7CBJDFM
+https://stocksnap.io/photo/business-man-EDZW9PBAZX
+https://stocksnap.io/photo/business-man-A92FDFKT0F
+https://stocksnap.io/photo/city-buildings-EVM6N4DF6J
+https://stocksnap.io/photo/senior-business-UTEZRDTKPP
+https://stocksnap.io/photo/older-businessman-5BRQF1DZ8W
+https://stocksnap.io/photo/business-man-DAAZROYMQN
+https://stocksnap.io/photo/business-team-QJJQT2IVRS
 
 
 Notes:
-TODO: Unable to specify z-index.
-TODO: When attempting to apply bg-primary to 'BS > shape divider', it fails to work as expected, instead defaulting to the standard Bootstrap bg-primary. To resolve this issue, I needed to utilize a custom color.
-TODO: No way to control fields border in 'BS > contact form'
-TODO: No way to control shadow opacity
-TODO: The automatic addition of the bg-white class to category icon links is unintended and should be avoided.
+@todo: Unable to specify z-index.
+@todo: When attempting to apply bg-primary to 'BS > shape divider', it fails to work as expected, instead defaulting to the standard Bootstrap bg-primary. To resolve this issue, I needed to utilize a custom color.
+@todo: No way to control fields border in 'BS > contact form'
+@todo: No way to control shadow opacity
+@todo: The automatic addition of the bg-white class to category icon links is unintended and should be avoided.

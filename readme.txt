@@ -3,7 +3,7 @@ Contributors: ayecode, stiofansisland
 Tested up to: 6.7
 Requires at least: 6.1
 Requires PHP: 7.2
-Version: 1.0.0
+Version: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Classifieds is a modern and responsive WordPress theme designed for classifieds 
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.1 =
 * First public release - NEW
 
 == Copyright ==

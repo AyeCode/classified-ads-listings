@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Classifieds - Default Hero Archive
- * Slug: classifieds/hero-archive-default
+ * Slug: classified-ads-listings/hero-archive-default
  * Categories: blockstrap-hero-sections
  * Viewport Width: 1280
  */

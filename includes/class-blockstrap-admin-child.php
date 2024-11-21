@@ -15,7 +15,7 @@ if ( class_exists( 'BlockStrap_Admin' ) ) {
 		 * @return string|null
 		 */
 		public function get_theme_title() {
-			return __( 'Classifieds', 'classifieds' );
+			return __( 'Classifieds', 'classified-ads-listings' );
 		}
 
 		/**
@@ -25,9 +25,9 @@ if ( class_exists( 'BlockStrap_Admin' ) ) {
 		 */
 		public function get_required_plugins() {
 			return array(
-				'blockstrap-page-builder-blocks' => __( 'BlockStrap Builder', 'classifieds' ),
-                'geodirectory'                   => __( 'GeoDirectory', 'classifieds' ),
-                'userswp'                   => __( 'UsersWP', 'classifieds' ),
+				'blockstrap-page-builder-blocks' => __( 'BlockStrap Builder', 'classified-ads-listings' ),
+                'geodirectory'                   => __( 'GeoDirectory', 'classified-ads-listings' ),
+                'userswp'                   => __( 'UsersWP', 'classified-ads-listings' ),
 			);
 		}
 	}

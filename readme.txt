@@ -1,9 +1,9 @@
-=== Classifieds ===
+=== Classified Ads Listings ===
 Contributors: ayecode, stiofansisland
 Tested up to: 6.7
 Requires at least: 6.1
 Requires PHP: 7.2
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,10 @@ Classifieds is a modern and responsive WordPress theme designed for classifieds 
 Classifieds is a modern and responsive WordPress theme designed for classifieds directory and recruitment directory websites. It is fully customizable and easy to use, Classifieds utilises the power of the WordPress block editor, Bootstrap to be able to create a fast loading modern classifieds site.
 
 == Changelog ==
+
+= 1.0.2 =
+* Changes for wp.org review - CHANGED
+* Theme directory changed, may require manual updated - BREAKING CHANGE
 
 = 1.0.1 =
 * First public release - NEW
@@ -38,13 +42,13 @@ GNU General Public License for more details.
   License: CC0 Public Domain
   Source: Created by us (AyeCode Ltd)
 
-* Image for frontpage hero section ( hero-home.webp ), Copyright AyeCode Ltd
+* Image for frontpage hero section ( hero-home.webp ), Copyright PxHere
   License: CC0 Public Domain
-  Source: Created using AI
+  Source: https://pxhere.com/en/photo/111204
 
-* Image for frontpage hero section background( city.webp ), Copyright AyeCode Ltd
+* Image for frontpage hero section background( city.webp ), Copyright PxHere
   License: CC0 Public Domain
-  Source: Created using AI
+  Source: https://pxhere.com/en/photo/203
 
 * Font files montserrat (assets/fonts/josefin_sans/*), Copyright 2010 The Josefin Sans Project Authors
   License: SIL OPEN FONT LICENSE Version 1.1

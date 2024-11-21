@@ -8,7 +8,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
     register_block_pattern(
         'blockstrap/header-default',
         array(
-            'title'      => esc_html__( 'Default Header', 'classifieds' ),
+            'title'      => esc_html__( 'Default Header', 'classified-ads-listings' ),
             'categories' => array( 'blockstrap-site-header' ),
             'content'    => defined( 'BLOCKSTRAP_BLOCKS_VERSION' ) ? apply_filters(
                 'blockstrap_pattern_header_default',
@@ -42,7 +42,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
     register_block_pattern(
         'blockstrap/footer-default',
         array(
-            'title'      => esc_html__( 'Default Footer', 'classifieds' ),
+            'title'      => esc_html__( 'Default Footer', 'classified-ads-listings' ),
             'categories' => array( 'blockstrap-site-footer' ),
             'content'    => defined( 'BLOCKSTRAP_BLOCKS_VERSION' ) ? apply_filters(
                 'blockstrap_pattern_footer_default',
@@ -51,7 +51,7 @@ if ( function_exists( 'register_block_pattern' ) ) {
 <div class="wp-block-group has-light-color has-dark-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast-2","fontSize":"small"} -->
 <p class="has-contrast-2-color has-text-color has-link-color has-small-font-size">
-		' . __( 'Designed with WordPress', 'classifieds' ) . '		</p>
+		' . __( 'Designed with WordPress', 'classified-ads-listings' ) . '		</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->',
@@ -69,14 +69,14 @@ if ( function_exists( 'register_block_pattern' ) ) {
     register_block_pattern(
         'blockstrap/feature-home-default',
         array(
-            'title'      => esc_html__( 'Hero home', 'classifieds' ),
+            'title'      => esc_html__( 'Hero home', 'classified-ads-listings' ),
             'categories' => array( 'blockstrap-feature-sections' ),
             'content'    => defined( 'BLOCKSTRAP_BLOCKS_VERSION' ) ? apply_filters(
                 'blockstrap_pattern_feature_home_default',
                 ''
             ) : '<!-- wp:group {"tagName":"main"} -->
 <main class="wp-block-group has-background"><!-- wp:paragraph -->
-<p>' . __( 'Classifieds is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the BlockStrap page builder plugin.', 'classifieds' ) . '</p>
+<p>' . __( 'Classifieds is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the BlockStrap page builder plugin.', 'classified-ads-listings' ) . '</p>
 <!-- /wp:paragraph --></main>
 <!-- /wp:group -->',
         )

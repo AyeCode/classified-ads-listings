@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Classifieds - Transparent Header
- * Slug: classifieds/header-transparent
+ * Slug: classified-ads-listings/header-transparent
  * Categories: blockstrap-site-header
  * Viewport Width: 1280
  */
 
  $logo_url = esc_url( get_theme_file_uri( 'assets/images/logo-white.png' ) ); /* <?php echo esc_url( $logo_url ); ?> */
  $home_url = get_home_url(); /* <?php echo esc_url( $home_url ); ?> */
-$txt_skip = __( 'Skip to main content', 'classifieds' ); /* <?php echo esc_attr( $txt_skip ); ?> */
+$txt_skip = __( 'Skip to main content', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_skip ); ?> */
 
 ?>
 <!-- wp:blockstrap/blockstrap-widget-skip-links {"content":"\u003ca href=\u0022#main\u0022 class=\u0022btn btn-primary\u0022\u003e<?php echo esc_attr( $txt_skip ); ?>\u003c/a\u003e","sd_shortcode":"[bs_skip_links text1='<?php echo esc_attr( $txt_skip ); ?>'  hash1='main'  text2=''  hash2=''  text3=''  hash3=''  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg=''  pr_lg=''  pb_lg=''  pl_lg=''  border=''  rounded=''  rounded_size=''  shadow=''  css_class='' ]"} /-->
@@ -18,7 +18,7 @@ $txt_skip = __( 'Skip to main content', 'classifieds' ); /* <?php echo esc_attr(
         <a class="navbar-brand d-flex align-items-center pb-2 rounded-lg" href="<?php echo esc_url( $home_url ); ?>"><img class="" alt="Site logo" src="<?php echo esc_url( $logo_url ); ?>" style="max-width:150px" width="150" height="50"/><span class="mb-0 props.attributes.brand_font_size props.attributes.brand_font_weight fst-italic"></span></a>
         <!-- /wp:blockstrap/blockstrap-widget-navbar-brand -->
         <?php
-        echo classifieds_theme_get_default_menu(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+        echo classified_ads_listings_theme_get_default_menu(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
         ?>
         </div></nav>
 <!-- /wp:blockstrap/blockstrap-widget-navbar -->

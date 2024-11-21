@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Classifieds - Categories
- * Slug: classifieds/categories
+ * Slug: classified-ads-listings/categories
  * Categories: blockstrap-page-content
  * Viewport Width: 1280
  */
 
-$txt_find = __( 'Find and hire professionals across all skills', 'classifieds' ); /* <?php echo esc_attr( $txt_find ); ?> */
-$txt_browse = __( 'Browse by category', 'classifieds' ); /* <?php echo esc_attr( $txt_browse ); ?> */
+$txt_find = __( 'Find and hire professionals across all skills', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_find ); ?> */
+$txt_browse = __( 'Browse by category', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_browse ); ?> */
 ?>
 
 <!-- wp:blockstrap/blockstrap-widget-container {"container":"container-fluid","bg_color":"rgba(250,246,235,0.68)","mb":"0","mt_lg":"4","content":"\u003cdiv class=\u0022bs-counter-number-wrapper text-dark text-start fw-bold  h1 \u0022  \u003e\u003cspan class=\u0022bs-counter-number\u0022 data-auicounter data-auistart=\u00220\u0022 data-auiend=\u002256\u0022 data-auiduration=\u00222000\u0022 data-auisep=\u0022\u0022\u003e56\u003c/span\u003e\u003cspan class=\u0022bs-counter-suffix\u0022\u003eK+\u003c/span\u003e\u003c/div\u003e\u003cdiv class=\u0022bs-counter-title text-start fs-5 \u0022 \u003eMonthly Users\u003c/div\u003e","sd_shortcode":"[bs_container container='container-fluid'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='rgba(250,246,235,0.68)'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb='0'  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg='4'  mr_lg=''  mb_lg='3'  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg=''  pr_lg=''  pb_lg=''  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->

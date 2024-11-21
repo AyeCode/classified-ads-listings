@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Classifieds - Hero Home
- * Slug: classifieds/hero-home-default
+ * Slug: classified-ads-listings/hero-home-default
  * Categories: blockstrap-hero-sections
  * Viewport Width: 1280
  */
@@ -9,10 +9,10 @@
 $img_url = esc_url( get_theme_file_uri( 'assets/images/demo/hero-home.webp' ) ); /* <?php echo esc_url( $img_url ); ?> */
 $lm_addon_active = defined( 'GEODIRLOCATION_VERSION' );
 
-$txt_treasures = __( 'Treasures in Your Town', 'classifieds' );
-$txt_treasures_lm = sprintf( __( 'Treasures in %s', 'classifieds' ),"[gd_location_meta no_wrap='true']");
+$txt_treasures = __( 'Treasures in Your Town', 'classified-ads-listings' );
+$txt_treasures_lm = sprintf( __( 'Treasures in %s', 'classified-ads-listings' ),"[gd_location_meta no_wrap='true']");
 $txt_treasures_in = $lm_addon_active ? $txt_treasures_lm : $txt_treasures; /* <?php echo esc_attr( $txt_treasures_in ); ?> */
-$txt_buy_sell =  __( 'Buy, sell, rent, or exchange. Fast, easy, and convenient.', 'classifieds' ); /* <?php echo esc_attr( $txt_buy_sell ); ?> */
+$txt_buy_sell =  __( 'Buy, sell, rent, or exchange. Fast, easy, and convenient.', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_buy_sell ); ?> */
 ?>
 
 <!-- wp:blockstrap/blockstrap-widget-container {"container":"container-fluid","bg":"custom-color","bg_color":"rgba(0,0,0,0.85)","bg_gradient":"radial-gradient(rgb(5,63,40) 0%,rgba(11,23,18,0.93) 100%)","bg_image_fixed":true,"bg_image":"<?php echo esc_url( $img_url ); ?>","bg_image_id":5211,"bg_image_xy":{"x":0.75,"y":0.99},"text_color":"white","mb_lg":"","pt":"8","pb":"0","pt_lg":"10","pb_lg":"10","position":"position-relative","content":"\u003cdiv class=\u0022bs-counter-number-wrapper text-dark text-start fw-bold  h1 \u0022  \u003e\u003cspan class=\u0022bs-counter-number\u0022 data-auicounter data-auistart=\u00220\u0022 data-auiend=\u002256\u0022 data-auiduration=\u00222000\u0022 data-auisep=\u0022\u0022\u003e56\u003c/span\u003e\u003cspan class=\u0022bs-counter-suffix\u0022\u003eK+\u003c/span\u003e\u003c/div\u003e\u003cdiv class=\u0022bs-counter-title text-start fs-5 \u0022 \u003eMonthly Users\u003c/div\u003e","sd_shortcode":"[bs_container container='container-fluid'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg='custom-color'  bg_color='rgba(0,0,0,0.85)'  bg_gradient='radial-gradient(rgb(5,63,40) 0%,rgba(11,23,18,0.93) 100%)'  bg_image_fixed='true'  bg_image_use_featured='false'  bg_image='<?php echo esc_url( $img_url ); ?>'  bg_image_id='5211'  bg_on_text='false'  text_color='white'  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt='8'  pr=''  pb='0'  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg='10'  pr_lg=''  pb_lg='10'  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position='position-relative'  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->

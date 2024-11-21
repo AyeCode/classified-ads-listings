@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Classifieds - Pricing plans
- * Slug: classifieds/pricing
+ * Slug: classified-ads-listings/pricing
  * Categories: call-to-action
  * Viewport Width: 1280
  */
@@ -11,12 +11,12 @@
 <div class="wp-block-blockstrap-blockstrap-widget-container pe-0 pb-3 ps-0 bg-image-fixed container-fluid position-relative"><!-- wp:blockstrap/blockstrap-widget-container {"container":"container-fluid","bg":"primary","mb_lg":"","pt_lg":"4","pb_lg":"10","border":"0","position":"position-relative","sd_shortcode":"[bs_container container='container-fluid'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg='primary'  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg='4'  pr_lg=''  pb_lg='10'  pl_lg=''  border='0'  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position='position-relative'  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
     <div class="wp-block-blockstrap-blockstrap-widget-container pt-4 pb-10 border-0 bg-primary bg-image-fixed container-fluid position-relative"><!-- wp:blockstrap/blockstrap-widget-container {"container":"row","text_align_lg":"text-lg-center","mb_lg":"","pb":"0","pb_lg":"3","flex_align_items_lg":"align-items-lg-center","sd_shortcode":"[bs_container container='row'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg='text-lg-center'  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt=''  pr=''  pb='0'  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg=''  pr_lg=''  pb_lg='3'  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg='align-items-lg-center'  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
         <div class="wp-block-blockstrap-blockstrap-widget-container pb-0 pb-lg-3 bg-image-fixed text-center row align-items-center"><!-- wp:blockstrap/blockstrap-widget-container {"container":"col","mb_lg":"","sd_shortcode":"[bs_container container='col'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg=''  pr_lg=''  pb_lg=''  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
-            <div class="wp-block-blockstrap-blockstrap-widget-container bg-image-fixed col"><!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Explore our Flexible Pricing Options', 'classifieds'); ?>","html_tag":"div","text_color":"white","font_size":"h6","font_weight":"font-weight-normal","mb_lg":"2","pr":"0","pl":"0"} -->
-                <div class="wp-block-blockstrap-blockstrap-widget-heading mb-2 pe-0 ps-0 text-white font-weight-normal h6"><?php echo esc_html__('Explore our Flexible Pricing Options', 'classifieds'); ?></div>
+            <div class="wp-block-blockstrap-blockstrap-widget-container bg-image-fixed col"><!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Explore our Flexible Pricing Options', 'classified-ads-listings'); ?>","html_tag":"div","text_color":"white","font_size":"h6","font_weight":"font-weight-normal","mb_lg":"2","pr":"0","pl":"0"} -->
+                <div class="wp-block-blockstrap-blockstrap-widget-heading mb-2 pe-0 ps-0 text-white font-weight-normal h6"><?php echo esc_html__('Explore our Flexible Pricing Options', 'classified-ads-listings'); ?></div>
                 <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
-                <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Choose Your Plan', 'classifieds'); ?>","html_tag":"h2","text_color":"white","font_size":"h1","font_weight":"font-weight-bold","mb_lg":"2"} -->
-                <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-white font-weight-bold h1"><?php echo esc_html__('Choose Your Plan', 'classifieds'); ?></h2>
+                <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Choose Your Plan', 'classified-ads-listings'); ?>","html_tag":"h2","text_color":"white","font_size":"h1","font_weight":"font-weight-bold","mb_lg":"2"} -->
+                <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-white font-weight-bold h1"><?php echo esc_html__('Choose Your Plan', 'classified-ads-listings'); ?></h2>
                 <!-- /wp:blockstrap/blockstrap-widget-heading --></div>
             <!-- /wp:blockstrap/blockstrap-widget-container --></div>
         <!-- /wp:blockstrap/blockstrap-widget-container --></div>
@@ -30,8 +30,8 @@
                     <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-dark text-center font-weight-bold h1">Basic</h2>
                     <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
-                    <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Perfect for occasional sellers and budget-conscious buyers.', 'classifieds'); ?>","html_tag":"div","text_color":"gray-dark","font_size":"h6","font_weight":"font-weight-normal","text_align_lg":"text-lg-center","pr":"0","pl":"0"} -->
-                    <div class="wp-block-blockstrap-blockstrap-widget-heading mb-3 pe-0 ps-0 text-gray-dark text-center font-weight-normal h6"><?php echo esc_html__('Perfect for occasional sellers and budget-conscious buyers.', 'classifieds'); ?></div>
+                    <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Perfect for occasional sellers and budget-conscious buyers.', 'classified-ads-listings'); ?>","html_tag":"div","text_color":"gray-dark","font_size":"h6","font_weight":"font-weight-normal","text_align_lg":"text-lg-center","pr":"0","pl":"0"} -->
+                    <div class="wp-block-blockstrap-blockstrap-widget-heading mb-3 pe-0 ps-0 text-gray-dark text-center font-weight-normal h6"><?php echo esc_html__('Perfect for occasional sellers and budget-conscious buyers.', 'classified-ads-listings'); ?></div>
                     <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
                     <!-- wp:blockstrap/blockstrap-widget-heading {"text":"\u003csup\u003e$\u003c/sup\u003e\u003cstrong\u003e0\u003c/strong\u003e","html_tag":"h2","text_color":"salmon","font_size":"display-4","font_weight":"font-weight-normal","text_align_lg":"text-lg-center"} -->
@@ -40,27 +40,27 @@
 
                     <!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray-dark"}}}},"textColor":"gray-dark"} -->
                     <ul class="wp-block-list has-gray-dark-color has-text-color has-link-color"><!-- wp:list-item -->
-                        <li><s><mark style="background-color:rgba(0, 0, 0, 0);color:#b8b8b8" class="has-inline-color"><?php echo esc_html__('Sticky', 'classifieds'); ?></mark></s></li>
+                        <li><s><mark style="background-color:rgba(0, 0, 0, 0);color:#b8b8b8" class="has-inline-color"><?php echo esc_html__('Sticky', 'classified-ads-listings'); ?></mark></s></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><mark style="background-color:rgba(0, 0, 0, 0);color:#b8b8b8" class="has-inline-color"><s><?php echo esc_html__('Featured', 'classifieds'); ?></s></mark></li>
+                        <li><mark style="background-color:rgba(0, 0, 0, 0);color:#b8b8b8" class="has-inline-color"><s><?php echo esc_html__('Featured', 'classified-ads-listings'); ?></s></mark></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('1 category', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('1 category', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Up to 3 locations', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Up to 3 locations', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Up to 4 images', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Up to 4 images', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('1 video', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('1 video', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item --></ul>
                     <!-- /wp:list -->
 
@@ -70,12 +70,12 @@
 
             <!-- wp:blockstrap/blockstrap-widget-container {"container":"col","mb":"3","mb_lg":"0","sd_shortcode":"[bs_container container='col'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb='3'  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg='0'  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg=''  pr_lg=''  pb_lg=''  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
             <div class="wp-block-blockstrap-blockstrap-widget-container mb-3 mb-lg-0 bg-image-fixed col"><!-- wp:blockstrap/blockstrap-widget-container {"container":"card","h100":"h-100","pt_lg":"5","pr_lg":"5","pb_lg":"5","pl_lg":"5","border":"0","shadow":"shadow-lg","display_lg":"d-lg-flex","flex_align_items_lg":"align-items-lg-center","flex_justify_content_lg":"justify-content-lg-center","hover_animations":["hover-move-up"],"sd_shortcode":"[bs_container container='card'  h100='h-100'  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg='3'  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg='5'  pr_lg='5'  pb_lg='5'  pl_lg='5'  border='0'  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow='shadow-lg'  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg='d-lg-flex'  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg='align-items-lg-center'  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg='justify-content-lg-center'  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations='hover-move-up'  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
-                <div class="wp-block-blockstrap-blockstrap-widget-container mb-3 pt-5 pe-5 pb-5 ps-5 border-0 bg-image-fixed d-flex hover-move-up card shadow-lg align-items-center justify-content-center h-100"><!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Premium', 'classifieds'); ?>","html_tag":"h2","text_color":"dark","font_size":"h1","font_weight":"font-weight-bold","text_align_lg":"text-lg-center","mb_lg":"2"} -->
-                    <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-dark text-center font-weight-bold h1"><?php echo esc_html__('Premium', 'classifieds'); ?></h2>
+                <div class="wp-block-blockstrap-blockstrap-widget-container mb-3 pt-5 pe-5 pb-5 ps-5 border-0 bg-image-fixed d-flex hover-move-up card shadow-lg align-items-center justify-content-center h-100"><!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Premium', 'classified-ads-listings'); ?>","html_tag":"h2","text_color":"dark","font_size":"h1","font_weight":"font-weight-bold","text_align_lg":"text-lg-center","mb_lg":"2"} -->
+                    <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-dark text-center font-weight-bold h1"><?php echo esc_html__('Premium', 'classified-ads-listings'); ?></h2>
                     <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
-                    <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Perfect for serious sellers and those seeking a competitive edge.', 'classifieds'); ?>","html_tag":"div","text_color":"gray-dark","font_size":"h6","font_weight":"font-weight-normal","text_align_lg":"text-lg-center","pr":"0","pl":"0"} -->
-                    <div class="wp-block-blockstrap-blockstrap-widget-heading mb-3 pe-0 ps-0 text-gray-dark text-center font-weight-normal h6"><?php echo esc_html__('Perfect for serious sellers and those seeking a competitive edge.', 'classifieds'); ?></div>
+                    <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Perfect for serious sellers and those seeking a competitive edge.', 'classified-ads-listings'); ?>","html_tag":"div","text_color":"gray-dark","font_size":"h6","font_weight":"font-weight-normal","text_align_lg":"text-lg-center","pr":"0","pl":"0"} -->
+                    <div class="wp-block-blockstrap-blockstrap-widget-heading mb-3 pe-0 ps-0 text-gray-dark text-center font-weight-normal h6"><?php echo esc_html__('Perfect for serious sellers and those seeking a competitive edge.', 'classified-ads-listings'); ?></div>
                     <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
 
@@ -85,27 +85,27 @@
 
                     <!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray-dark"}}}},"textColor":"gray-dark"} -->
                     <ul class="wp-block-list has-gray-dark-color has-text-color has-link-color"><!-- wp:list-item -->
-                        <li><s><mark style="background-color:rgba(0, 0, 0, 0);color:#b8b8b8" class="has-inline-color"><?php echo esc_html__('Sticky', 'classifieds'); ?></mark></s></li>
+                        <li><s><mark style="background-color:rgba(0, 0, 0, 0);color:#b8b8b8" class="has-inline-color"><?php echo esc_html__('Sticky', 'classified-ads-listings'); ?></mark></s></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Featured', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Featured', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('2 categories', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('2 categories', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Up to 7 locations', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Up to 7 locations', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Up to 10 images', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Up to 10 images', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('2 videos', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('2 videos', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item --></ul>
                     <!-- /wp:list -->
 
@@ -115,12 +115,12 @@
 
             <!-- wp:blockstrap/blockstrap-widget-container {"container":"col","mb_lg":"","sd_shortcode":"[bs_container container='col'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg=''  pr_lg=''  pb_lg=''  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
             <div class="wp-block-blockstrap-blockstrap-widget-container bg-image-fixed col"><!-- wp:blockstrap/blockstrap-widget-container {"container":"card","h100":"h-100","pt_lg":"5","pr_lg":"5","pb_lg":"5","pl_lg":"5","border":"0","shadow":"shadow-lg","display_lg":"d-lg-flex","flex_align_items_lg":"align-items-lg-center","flex_justify_content_lg":"justify-content-lg-center","hover_animations":["hover-move-up"],"sd_shortcode":"[bs_container container='card'  h100='h-100'  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg=''  bg_color='#0073aa'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color=''  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg='3'  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg='5'  pr_lg='5'  pb_lg='5'  pl_lg='5'  border='0'  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow='shadow-lg'  position=''  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg='d-lg-flex'  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg='align-items-lg-center'  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg='justify-content-lg-center'  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations='hover-move-up'  visibility_conditions=''  anchor=''  css_class='' ]","sd_shortcode_close":"[/bs_container]"} -->
-                <div class="wp-block-blockstrap-blockstrap-widget-container mb-3 pt-5 pe-5 pb-5 ps-5 border-0 bg-image-fixed d-flex hover-move-up card shadow-lg align-items-center justify-content-center h-100"><!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Business', 'classifieds'); ?>","html_tag":"h2","text_color":"dark","font_size":"h1","font_weight":"font-weight-bold","text_align_lg":"text-lg-center","mb_lg":"2"} -->
-                    <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-dark text-center font-weight-bold h1"><?php echo esc_html__('Business', 'classifieds'); ?></h2>
+                <div class="wp-block-blockstrap-blockstrap-widget-container mb-3 pt-5 pe-5 pb-5 ps-5 border-0 bg-image-fixed d-flex hover-move-up card shadow-lg align-items-center justify-content-center h-100"><!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Business', 'classified-ads-listings'); ?>","html_tag":"h2","text_color":"dark","font_size":"h1","font_weight":"font-weight-bold","text_align_lg":"text-lg-center","mb_lg":"2"} -->
+                    <h2 class="wp-block-blockstrap-blockstrap-widget-heading mb-2 text-dark text-center font-weight-bold h1"><?php echo esc_html__('Business', 'classified-ads-listings'); ?></h2>
                     <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
-                    <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Ideal for high-volume businesses and professional sellers.', 'classifieds'); ?>","html_tag":"div","text_color":"gray-dark","font_size":"h6","font_weight":"font-weight-normal","text_align_lg":"text-lg-center","pr":"0","pl":"0"} -->
-                    <div class="wp-block-blockstrap-blockstrap-widget-heading mb-3 pe-0 ps-0 text-gray-dark text-center font-weight-normal h6"><?php echo esc_html__('Ideal for high-volume businesses and professional sellers.', 'classifieds'); ?></div>
+                    <!-- wp:blockstrap/blockstrap-widget-heading {"text":"<?php echo esc_attr__('Ideal for high-volume businesses and professional sellers.', 'classified-ads-listings'); ?>","html_tag":"div","text_color":"gray-dark","font_size":"h6","font_weight":"font-weight-normal","text_align_lg":"text-lg-center","pr":"0","pl":"0"} -->
+                    <div class="wp-block-blockstrap-blockstrap-widget-heading mb-3 pe-0 ps-0 text-gray-dark text-center font-weight-normal h6"><?php echo esc_html__('Ideal for high-volume businesses and professional sellers.', 'classified-ads-listings'); ?></div>
                     <!-- /wp:blockstrap/blockstrap-widget-heading -->
 
                     <!-- wp:blockstrap/blockstrap-widget-heading {"text":"\u003csup\u003e$\u003c/sup\u003e\u003cstrong\u003e25\u003c/strong\u003e","html_tag":"h2","text_color":"info","font_size":"display-4","font_weight":"font-weight-normal","text_align_lg":"text-lg-center"} -->
@@ -129,27 +129,27 @@
 
                     <!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray-dark"}}}},"textColor":"gray-dark"} -->
                     <ul class="wp-block-list has-gray-dark-color has-text-color has-link-color"><!-- wp:list-item -->
-                        <li><?php echo esc_html__('Sticky', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Sticky', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Featured', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Featured', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('6 category', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('6 category', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Up to 10 locations', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Up to 10 locations', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('Up to 30 images', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('Up to 30 images', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item -->
 
                         <!-- wp:list-item -->
-                        <li><?php echo esc_html__('5 videos', 'classifieds'); ?></li>
+                        <li><?php echo esc_html__('5 videos', 'classified-ads-listings'); ?></li>
                         <!-- /wp:list-item --></ul>
                     <!-- /wp:list -->
 

@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Classifieds - Default Footer
- * Slug: classifieds/footer-default
+ * Slug: classified-ads-listings/footer-default
  * Categories: blockstrap-site-footer
  * Viewport Width: 1280
  */
 
  $logo_url = esc_url( get_theme_file_uri( 'assets/images/logo-white.png' ) ); /* <?php echo esc_url( $logo_url ); ?> */
 
-$txt_copyright = __( 'Copyright © BlockStrap 2024. All rights reserved.', 'classifieds' ); /* <?php echo esc_attr( $txt_copyright ); ?> */
+$txt_copyright = __( 'Copyright © BlockStrap 2024. All rights reserved.', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_copyright ); ?> */
 ?>
 
 <!-- wp:blockstrap/blockstrap-widget-container {"container":"container-fluid","bg":"dark","bg_color":"rgba(32,33,36,0.25)","text_color":"white","mb_lg":"","pt_lg":"5","position":"position-relative","anchor":"footer","sd_shortcode":"[bs_container container='container-fluid'  h100=''  row_cols=''  row_cols_md=''  row_cols_lg=''  col=''  col_md=''  col_lg=''  bg='dark'  bg_color='rgba(32,33,36,0.25)'  bg_gradient='linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%)'  bg_image_fixed='false'  bg_image_use_featured='false'  bg_image=''  bg_image_id=''  bg_on_text='false'  text_color='white'  text_justify='false'  text_align=''  text_align_md=''  text_align_lg=''  mt=''  mr=''  mb=''  ml=''  mt_md=''  mr_md=''  mb_md=''  ml_md=''  mt_lg=''  mr_lg=''  mb_lg=''  ml_lg=''  pt=''  pr=''  pb=''  pl=''  pt_md=''  pr_md=''  pb_md=''  pl_md=''  pt_lg='5'  pr_lg=''  pb_lg=''  pl_lg=''  border=''  border_type=''  border_width=''  border_opacity=''  rounded=''  rounded_size=''  shadow=''  position='position-relative'  sticky_offset_top=''  sticky_offset_bottom=''  display=''  display_md=''  display_lg=''  flex_align_items=''  flex_align_items_md=''  flex_align_items_lg=''  flex_justify_content=''  flex_justify_content_md=''  flex_justify_content_lg=''  flex_align_self=''  flex_align_self_md=''  flex_align_self_lg=''  flex_order=''  flex_order_md=''  flex_order_lg=''  overflow=''  max_height=''  scrollbars=''  hover_animations=''  visibility_conditions=''  anchor='footer'  css_class='' ]","sd_shortcode_close":"[/bs_container]","className":"block-1618467995"} -->

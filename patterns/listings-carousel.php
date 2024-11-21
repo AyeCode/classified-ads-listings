@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Classifieds - Listings Carousel
- * Slug: classifieds/listings-carousel
+ * Slug: classified-ads-listings/listings-carousel
  * Categories: blockstrap-page-content
  * Viewport Width: 1280
  */

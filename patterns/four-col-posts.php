@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Classifieds: 4-column cards (Latest articles)
- * Slug: classifieds/four-col-posts
+ * Slug: classified-ads-listings/four-col-posts
  * Categories: blockstrap-page-content
  * Viewport Width: 1280
  */
 
-$txt_stay_informed = __( 'Stay Informed with the Latest News', 'classifieds' ); /* <?php echo esc_attr( $txt_stay_informed ); ?> */
-$txt_latest_news = __( 'Latest articles and news', 'classifieds' ); /* <?php echo esc_attr( $txt_latest_news ); ?> */
+$txt_stay_informed = __( 'Stay Informed with the Latest News', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_stay_informed ); ?> */
+$txt_latest_news = __( 'Latest articles and news', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_latest_news ); ?> */
 
 ?>
 

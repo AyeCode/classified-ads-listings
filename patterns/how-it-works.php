@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Classifieds - How it works
- * Slug: classifieds/how-it-works
+ * Slug: classified-ads-listings/how-it-works
  * Categories: call-to-action
  * Viewport Width: 1280
  */
 
-$txt_how = __( 'How it Works', 'classifieds' ); /* <?php echo esc_attr( $txt_how ); ?> */
-$txt_explore = __( 'Explore the Simple Steps', 'classifieds' ); /* <?php echo esc_attr( $txt_explore ); ?> */
+$txt_how = __( 'How it Works', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_how ); ?> */
+$txt_explore = __( 'Explore the Simple Steps', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_explore ); ?> */
 
 ?>
 

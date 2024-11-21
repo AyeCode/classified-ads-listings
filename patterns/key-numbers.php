@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Classifieds - Showcases achievements and impact.
- * Slug: classifieds/key-numbers
+ * Slug: classified-ads-listings/key-numbers
  * Categories: call-to-action
  * Viewport Width: 1280
  */
 
  $img_url = esc_url( get_theme_file_uri( 'assets/images/demo/city.webp' ) ); /* <?php echo esc_url( $img_url ); ?> */
-$txt_key = __( 'Key numbers', 'classifieds' ); /* <?php echo esc_attr( $txt_key ); ?> */
-$txt_success = __( 'Our Success Metrics', 'classifieds' ); /* <?php echo esc_attr( $txt_success ); ?> */
+$txt_key = __( 'Key numbers', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_key ); ?> */
+$txt_success = __( 'Our Success Metrics', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_success ); ?> */
 
 ?>
 

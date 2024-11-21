@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Main Menu Items
- * Slug: classifieds/main-menu-items
+ * Slug: classified-ads-listings/main-menu-items
  * Categories: call-to-action
  */
 

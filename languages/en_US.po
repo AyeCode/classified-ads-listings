@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Classifieds\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-15 16:46+0000\n"
-"PO-Revision-Date: 2024-11-15 16:47+0000\n"
+"POT-Creation-Date: 2024-11-21 12:55+0000\n"
+"PO-Revision-Date: 2024-11-21 12:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
 "Language: en_US\n"
@@ -44,18 +44,167 @@ msgstr ""
 msgid "Default Footer"
 msgstr ""
 
+#: includes/default-patterns.php:54
+msgid "Designed with WordPress"
+msgstr ""
+
 #: includes/default-patterns.php:72
 msgid "Hero home"
 msgstr ""
 
-#: includes/default-patterns.php:79 includes/pattern-filters.php:32
+#: includes/default-patterns.php:79
 msgid ""
 "Classifieds is a lightweight and minimalist WordPress theme that was built "
 "specifically to work seamlessly with the BlockStrap page builder plugin."
 msgstr ""
 
-#: patterns/hero-home-default.php:11
-msgid "Your Town"
+#: patterns/categories.php:9
+msgid "Find and hire professionals across all skills"
+msgstr ""
+
+#: patterns/categories.php:10
+msgid "Browse by category"
+msgstr ""
+
+#: patterns/footer-default.php:11
+msgid "Copyright © BlockStrap 2024. All rights reserved."
+msgstr ""
+
+#: patterns/four-col-posts.php:9
+msgid "Stay Informed with the Latest News"
+msgstr ""
+
+#: patterns/four-col-posts.php:10
+msgid "Latest articles and news"
+msgstr ""
+
+#: patterns/header-default.php:11 patterns/header-transparent.php:11
+msgid "Skip to main content"
+msgstr ""
+
+#: patterns/hero-home-default.php:12
+msgid "Treasures in Your Town"
+msgstr ""
+
+#: patterns/hero-home-default.php:13
+#, php-format
+msgid "Treasures in %s"
+msgstr ""
+
+#: patterns/hero-home-default.php:15
+msgid "Buy, sell, rent, or exchange. Fast, easy, and convenient."
+msgstr ""
+
+#: patterns/how-it-works.php:9
+msgid "How it Works"
+msgstr ""
+
+#: patterns/how-it-works.php:10
+msgid "Explore the Simple Steps"
+msgstr ""
+
+#: patterns/key-numbers.php:10
+msgid "Key numbers"
+msgstr ""
+
+#: patterns/key-numbers.php:11
+msgid "Our Success Metrics"
+msgstr ""
+
+#: patterns/latest-ads.php:9
+msgid "Latest Ads"
+msgstr ""
+
+#: patterns/locations.php:14
+msgid "Browse Listings by Location"
+msgstr ""
+
+#: patterns/locations.php:15
+msgid "Discover Whats Available Nearby"
+msgstr ""
+
+#: patterns/pricing.php:14 patterns/pricing.php:15
+msgid "Explore our Flexible Pricing Options"
+msgstr ""
+
+#: patterns/pricing.php:18 patterns/pricing.php:19
+msgid "Choose Your Plan"
+msgstr ""
+
+#: patterns/pricing.php:33 patterns/pricing.php:34
+msgid "Perfect for occasional sellers and budget-conscious buyers."
+msgstr ""
+
+#: patterns/pricing.php:43 patterns/pricing.php:88 patterns/pricing.php:132
+msgid "Sticky"
+msgstr ""
+
+#: patterns/pricing.php:47 patterns/pricing.php:92 patterns/pricing.php:136
+msgid "Featured"
+msgstr ""
+
+#: patterns/pricing.php:51
+msgid "1 category"
+msgstr ""
+
+#: patterns/pricing.php:55
+msgid "Up to 3 locations"
+msgstr ""
+
+#: patterns/pricing.php:59
+msgid "Up to 4 images"
+msgstr ""
+
+#: patterns/pricing.php:63
+msgid "1 video"
+msgstr ""
+
+#: patterns/pricing.php:73 patterns/pricing.php:74
+msgid "Premium"
+msgstr ""
+
+#: patterns/pricing.php:77 patterns/pricing.php:78
+msgid "Perfect for serious sellers and those seeking a competitive edge."
+msgstr ""
+
+#: patterns/pricing.php:96
+msgid "2 categories"
+msgstr ""
+
+#: patterns/pricing.php:100
+msgid "Up to 7 locations"
+msgstr ""
+
+#: patterns/pricing.php:104
+msgid "Up to 10 images"
+msgstr ""
+
+#: patterns/pricing.php:108
+msgid "2 videos"
+msgstr ""
+
+#: patterns/pricing.php:118 patterns/pricing.php:119
+msgid "Business"
+msgstr ""
+
+#: patterns/pricing.php:122 patterns/pricing.php:123
+msgid "Ideal for high-volume businesses and professional sellers."
+msgstr ""
+
+#: patterns/pricing.php:140
+msgid "6 category"
+msgstr ""
+
+#: patterns/pricing.php:144
+msgid "Up to 10 locations"
+msgstr ""
+
+#: patterns/pricing.php:148
+msgid "Up to 30 images"
+msgstr ""
+
+#: patterns/pricing.php:152
+msgid "5 videos"
 msgstr ""
 
 #, fuzzy

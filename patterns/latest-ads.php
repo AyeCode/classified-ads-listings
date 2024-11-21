@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Classifieds - Featured Classifieds
- * Slug: classifieds/latest-ads
+ * Slug: classified-ads-listings/latest-ads
  * Categories: blockstrap-page-content
  * Viewport Width: 1280
  */
 
-$txt_latest = __( 'Latest Ads', 'classifieds' ); /* <?php echo esc_attr( $txt_latest ); ?> */
+$txt_latest = __( 'Latest Ads', 'classified-ads-listings' ); /* <?php echo esc_attr( $txt_latest ); ?> */
 
 ?>
 

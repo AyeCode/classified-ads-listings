@@ -77,7 +77,21 @@ if ( function_exists( 'register_block_pattern' ) ) {
             ) : '<!-- wp:group {"tagName":"main"} -->
 <main class="wp-block-group has-background"><!-- wp:paragraph -->
 <p>' . __( 'Classifieds is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the BlockStrap page builder plugin.', 'classified-ads-listings' ) . '</p>
-<!-- /wp:paragraph --></main>
+<!-- /wp:paragraph --><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-date /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></main>
 <!-- /wp:group -->',
         )
     );

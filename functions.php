@@ -45,7 +45,7 @@ add_action('after_setup_theme', 'classified_ads_listings_theme_setup');
 /**
  * If we don't have BlockStrap plugin active, force it to use the parent templates.
  */
-if (!defined('BLOCKSTRAP_BLOCKS_VERSION') && (!is_admin() || (is_admin() && !isset($_GET['page']) && $_SERVER['PHP_SELF'] !== '/wp-admin/themes.php'))) {
+if (!defined('BLOCKSTRAP_BLOCKS_VERSION') && (!is_admin() || (is_admin() && !isset($_GET['page']) && strpos($_SERVER['SCRIPT_NAME'], trailingslashit(ADMIN_COOKIE_PATH ) . 'themes.php') === false))) {
     add_filter('stylesheet_directory', 'classified_ads_listings_force_parent_stylesheet_directory');
     add_action('init', 'classified_ads_listings_include_default_patterns', 20);
     add_filter('theme_file_uri', 'classified_ads_listings_fix_font_location', 10, 2);
